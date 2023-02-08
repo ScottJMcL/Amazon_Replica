@@ -1,0 +1,156 @@
+* {
+    /* border: 1px solid red; */
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#amazon {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    background-size: contain;
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#sign_in_text {
+    font-weight:1;
+    font-size:x-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.sign_in {
+    background-color: white;
+    border: 2px solid rgb(234, 233, 233);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 225px;
+
+}
+
+form {
+    font-size: x-small;
+    color: gray;
+    justify-items: stretch;
+    margin-bottom: 10px;
+}
+
+#email_label {
+    padding-top: 0.5px;
+    padding-bottom: 10px;
+    margin-bottom: 0.5px;
+}
+
+input {
+    background-color: white;
+    border-width: 1px;
+    width: 250px;
+    border-style:solid;
+    border-color: lightgray;
+    font-size: x-small;
+    padding: 3px;
+}
+
+#password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Matches example, but doesn't match email label */
+}
+
+#forgot {
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-right: 3px;
+}
+
+#continue {
+    background-color: gold;
+    border: 1px solid lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+}
+
+#continue:hover {
+    background-color: goldenrod;
+}
+
+#help {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    text-decoration: none;
+}
+
+h4 {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    font-weight:lighter;
+}
+
+#new_account {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 30px;
+}
+
+#create {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor:pointer;
+    margin-left: 20px;
+}
+
+#create:hover {
+    background-color: rgb(188, 187, 187);
+}
+
+/* footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+} */
+
+.bottom {
+    border-top: 3px solid lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+.tiny {
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+}
